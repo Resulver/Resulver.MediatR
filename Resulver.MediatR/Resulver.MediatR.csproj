@@ -4,11 +4,35 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Title>Resulver.MediatR</Title>
+        <PackageId>Resulver.MediatR</PackageId>
+        <Description>Resulver.MediatR is an extension for MediatR that integrates with Resulver, enabling structured result handling without exceptions. Simplifies request-response workflows with Result objects.</Description>
+        <RepositoryUrl>https://github.com/Resulver/Resulver.MediatR</RepositoryUrl>
+        <Version>9.0.0</Version>
+        <PackageIcon>ResulverIcon.png</PackageIcon>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENCE</PackageLicenseFile>
+        <PackageTags>Resulver ; Result Pattern ; MediatR</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="MediatR" Version="12.4.1" />
       <PackageReference Include="Resulver" Version="9.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\LICENCE">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+        <None Include="..\README.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+        <None Include="..\ResulverIcon.png">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
     </ItemGroup>
 
 </Project>
