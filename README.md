@@ -1,6 +1,4 @@
 [![NuGet Package](https://img.shields.io/nuget/v/Resulver.MediatR)](https://www.nuget.org/packages/Resulver.MediatR/)
-[![NuGet](https://img.shields.io/nuget/dt/Resulver)](https://www.nuget.org/packages/Resulver)
-
 # Resulver.MediatR NuGet Package
 
 ## Table of Contents
